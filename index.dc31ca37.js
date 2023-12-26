@@ -1,0 +1,3 @@
+var e=document.querySelector(".tree");(function(){var e=document.querySelectorAll("li"),t=!0,n=!1,r=void 0;try{for(var i,a=e[Symbol.iterator]();!(t=(i=a.next()).done);t=!0){var l=i.value;if(l.firstElementChild){var d=l.firstChild.data;l.firstChild.remove(),l.insertAdjacentHTML("afterbegin","\n      <span class = 'headline'>".concat(d,"</span>"))}}}catch(e){n=!0,r=e}finally{try{t||null==a.return||a.return()}finally{if(n)throw r}}})(),e.addEventListener("click",function(e){"SPAN"===e.target.tagName&&(e.target.nextElementSibling.hidden=!e.target.nextElementSibling.hidden)}//# sourceMappingURL=index.dc31ca37.js.map
+);
+//# sourceMappingURL=index.dc31ca37.js.map
